@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  font-family: overpass;
+  font-style: normal;
+}
+
+th {
+  border-bottom: 1px solid #1c1c1c;
+  padding: 10px 15px;
+}
+
+td {
+  border-bottom: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
