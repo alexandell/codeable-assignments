@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "nav nav"
+    "sidebar app"
+    "sidebar footer";
+  height: 100vh;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 1fr 100px;
+}
+.box {
+  font-family: "Nunito";
+  text-align: center;
+}
+.nav {
+  grid-area: nav;
+  background: #ff5e5e;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #faff00;
+}
+
+.app {
+  grid-area: app;
+  background: #20e056;
+}
+
+.footer {
+  grid-area: footer;
+  background: #c4c4c4;
+}
